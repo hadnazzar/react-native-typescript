@@ -26,8 +26,7 @@ RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                       moduleName:@"RNts2"
                                                initialProperties:nil
                                                    launchOptions:launchOptions];
-
-  [RNSentry installWithRootView:rootView];
+[RNSentry installWithRootView:rootView];
 
   rootView.backgroundColor = [UIColor blackColor];
 

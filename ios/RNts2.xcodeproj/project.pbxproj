@@ -39,9 +39,9 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
-		CA2A734B85F44E169D3C513C /* libRNSentry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34652F5BC29342E7BDC20399 /* libRNSentry.a */; };
-		B947E6DE46DE4588B181016F /* libRNSentry-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 282F153E174747059F4350F1 /* libRNSentry-tvOS.a */; };
-		88475E803A144A6584CF3094 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 212773B8F5014E46A76D0B90 /* libz.tbd */; };
+		3F34528D520B4AE9A6D630A2 /* libRNSentry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C30E777DF3646499FC8D690 /* libRNSentry.a */; };
+		F0A03E0EA55049E39BD93793 /* libRNSentry-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B545093BF84F7084B3EC6C /* libRNSentry-tvOS.a */; };
+		0A29B0C4D09D4F79A95E672A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D3838E53F74DC1B9F58547 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -349,10 +349,10 @@
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		A8719B67CAE445F0879BB1A0 /* RNSentry.xcodeproj */ = {isa = PBXFileReference; name = "RNSentry.xcodeproj"; path = "../node_modules/react-native-sentry/ios/RNSentry.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		34652F5BC29342E7BDC20399 /* libRNSentry.a */ = {isa = PBXFileReference; name = "libRNSentry.a"; path = "libRNSentry.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		282F153E174747059F4350F1 /* libRNSentry-tvOS.a */ = {isa = PBXFileReference; name = "libRNSentry-tvOS.a"; path = "libRNSentry-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		212773B8F5014E46A76D0B90 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		9CDA08B266684DBE8802159B /* RNSentry.xcodeproj */ = {isa = PBXFileReference; name = "RNSentry.xcodeproj"; path = "../node_modules/react-native-sentry/ios/RNSentry.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		5C30E777DF3646499FC8D690 /* libRNSentry.a */ = {isa = PBXFileReference; name = "libRNSentry.a"; path = "libRNSentry.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		06B545093BF84F7084B3EC6C /* libRNSentry-tvOS.a */ = {isa = PBXFileReference; name = "libRNSentry-tvOS.a"; path = "libRNSentry-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		B0D3838E53F74DC1B9F58547 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,8 +381,8 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				CA2A734B85F44E169D3C513C /* libRNSentry.a in Frameworks */,
-				88475E803A144A6584CF3094 /* libz.tbd in Frameworks */,
+				3F34528D520B4AE9A6D630A2 /* libRNSentry.a in Frameworks */,
+				0A29B0C4D09D4F79A95E672A /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +400,7 @@
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
 				B947E6DE46DE4588B181016F /* libRNSentry-tvOS.a in Frameworks */,
+				F0A03E0EA55049E39BD93793 /* libRNSentry-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +537,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				212773B8F5014E46A76D0B90 /* libz.tbd */,
+				B0D3838E53F74DC1B9F58547 /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -574,7 +575,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				A8719B67CAE445F0879BB1A0 /* RNSentry.xcodeproj */,
+				9CDA08B266684DBE8802159B /* RNSentry.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -630,6 +631,14 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		2165B41CA26141C5BAE21808 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			path = Application;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -659,7 +668,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				EDEA36FAEA314FAC9ACA06F7 /* Upload Debug Symbols to Sentry */,
+				45ACBCB7E7F94995A7165F05 /* Upload Debug Symbols to Sentry */,
 			);
 			buildRules = (
 			);
@@ -1126,7 +1135,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export SENTRY_PROPERTIES=sentry.properties\nexport NODE_BINARY=node\n../node_modules/@sentry/cli/bin/sentry-cli react-native xcode ../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		EDEA36FAEA314FAC9ACA06F7 /* Upload Debug Symbols to Sentry */ = {
+		45ACBCB7E7F94995A7165F05 /* Upload Debug Symbols to Sentry */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
